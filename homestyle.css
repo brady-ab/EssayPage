@@ -1,0 +1,89 @@
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: 'Akshar';
+    margin: 0;
+    height: 100vh;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-color:  rgb(219, 76, 64);
+    height:25%;
+  }
+
+P{
+    margin: auto;
+}
+
+.header p{
+    display: grid;
+    place-items: left;
+    width: 750px;
+    height: 100px;
+    font-size: 26px;
+}  
+
+h1{
+    margin: auto;
+}
+
+.header h1{
+    display: grid;
+    place-items: center;
+    margin-left: 10%;
+    font-size: 90px;
+    width: 750px;
+    height: 100px;
+}
+
+
+.grid {
+    display: grid;
+    place-content: center;
+    justify-content: center; 
+    grid-template-columns: 415px 415px 415px;
+    grid-template-rows: 265px 265px;
+    margin: auto;
+    background-color: rgb(21, 21, 21);
+    height: 75%
+  }
+
+  img:hover{
+    animation: rotate 6s infinite linear;
+  }
+  
+
+  .grid p{
+    justify-content: center;
+  }
+
+  @keyframes rotate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate (360deg);
+    }
+  }
+ 
+
+
+
+
+
+
+
+  
+
+
