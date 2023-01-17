@@ -1,5 +1,4 @@
 
-
 html, body{
     margin: 0;
     padding: 0;
@@ -85,7 +84,7 @@ h1{
     opacity: 1;
   }
 
-  img:hover{
+  .topic img:hover{
     animation-name: fade;
     animation-duration: 0.5s;
     opacity: 0.2;
@@ -171,6 +170,18 @@ a{
 
 .footer{
   color:dimgray;
+}
+
+.explanation p{
+  max-width: 55%;
+  margin-left: 5%;
+}
+
+.example {
+  position: absolute;
+  right: 8%;
+  top: 36%;
+  
 }
 
 
